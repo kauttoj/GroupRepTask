@@ -1,10 +1,7 @@
 var study = "studyname";
-var NBLOCKS = 4;
-var NSTIMS = 8; //Per block
-var NPEERS = 3; //Per block
-
-
-
+var NBLOCKS = 2; // WAS 4
+var NSTIMS = 4; //Per block WAS 8
+var NPEERS = 3; //Per block WAS 3
 
 var subjID = getSubjID(8);
 var testing = $.url().param('testing');
@@ -149,7 +146,7 @@ var practice_warning_block = {
 
 timeline.push(welcome_block);
 timeline.push(demo_block);
-timeline.push(fullscreen_block);
+// timeline.push(fullscreen_block);  #COMMENTED AWAY
 timeline.push(practice_warning_block);
 
 timeline.push.apply(timeline,practice_timeline);

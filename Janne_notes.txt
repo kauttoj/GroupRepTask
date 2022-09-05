@@ -1,0 +1,2 @@
+Problem: 
+Number of bots is fixed to 3, cannot be changed by simply changing NPEERS to 2.

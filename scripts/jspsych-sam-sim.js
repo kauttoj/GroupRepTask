@@ -426,6 +426,7 @@ jsPsych.plugins.similarity = (function() {
 	}
 
 	function showNextStim() {
+		console.log('Current stimilus is ' + trial.stimuli[0])
 	    if (trial.phase == "MYSTERY") {
 		custTimeout(askMystery,trial.timeoutBeforeMystery);
 		custTimeout(startKeyListener, trial.timeoutBeforeResponse +
@@ -594,8 +595,13 @@ jsPsych.plugins.similarity = (function() {
 
 	function askPref() {
 	    writePrompt();
-
-
+		
+		try {
+		  trial.names[trial.peer].toLowerCase();
+		} catch (error) {
+		 console.log('fatal error (bug)')
+		}
+		
 	    if (trial.names[trial.peer].toLowerCase() == "you") {
 		$('#jspsych-peer').empty();
 	    } else {

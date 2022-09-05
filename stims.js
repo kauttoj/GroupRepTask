@@ -2,7 +2,7 @@
 var stims = {
 	stimDir: "",
 	stimuli: [
-		//"assistedsuicide.jpg",
+		"assistedsuicide.jpg",
 		"filename1.jpg",
 		"filename2.jpg",
 		"filename3.jpg",
@@ -34,10 +34,18 @@ var stims = {
 		"filename29.jpg",
 		"filename30.jpg",
 		"filename31.jpg",
-		"filename32.jpg"
+		"filename32.jpg",
+		"filename33.jpg",
+		"filename34.jpg",
+		"filename35.jpg",
+		"filename36.jpg",
+		"filename37.jpg",
+		"filename38.jpg",
+		"filename39.jpg",
+		"filename30.jpg"		
 	],
 	prompts:[
-		//"Should terminally ill patients be allowed to end their lives via assisted suicide?",
+		"Should terminally ill patients be allowed to end their lives via assisted suicide?",
 		"String 1 to go with filename1.jpg from above goes here.",
 		"String 2 to go with filename2.jpg from above goes here.",
 		"String 3 to go with filename3.jpg from above goes here.",
@@ -66,9 +74,7 @@ var stims = {
 		"String 26 to go with filename26.jpg from above goes here.",
 		"String 27 to go with filename27.jpg from above goes here.",
 		"String 28 to go with filename28.jpg from above goes here.",
-		"String 29 to go with filename29.jpg from above goes here.",
-		"String 30 to go with filename30.jpg from above goes here.",
-		"String 31 to go with filename31.jpg from above goes here.",
-		"String 32 to go with filename32.jpg from above goes here."
+		"String 29 to go with filename29.jpg from above goes here.",		
+		"String 30 to go with filename30.jpg from above goes here."			
 	]
 };
